@@ -54,3 +54,7 @@ Dadas as seguintes atribuições:
 
 #Questão 4: 
 
+
+
+#Questão 5:
+
