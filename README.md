@@ -58,3 +58,13 @@ Dadas as seguintes atribuições:
 
 #Questão 5:
 
+
+#Questão 6:
+Dado que a variável pulo representa o elemento número zero da array, isto é, o primeiro elemento na contagem da linguagem C, o terceiro elemento será representado da seguinte forma:
+
+*pulo = elemento 0;
+*(pulo + 2) =  terceiro elemento da array.
+
+#Questão 7:
+
+
