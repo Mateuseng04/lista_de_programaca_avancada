@@ -73,3 +73,9 @@ Devido a sintaxe dos ponteiros, as três primeiras sentenças são válidas. Ao 
 
 
 #Questão 9:
+
+
+#Questão 10:
+
+#Questão 11:
+
