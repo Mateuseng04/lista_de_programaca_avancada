@@ -66,5 +66,10 @@ Dado que a variável pulo representa o elemento número zero da array, isto é, 
 *(pulo + 2) =  terceiro elemento da array.
 
 #Questão 7:
+Devido a sintaxe dos ponteiros, as três primeiras sentenças são válidas. Ao declar p = mat, a variável p assume o valor do primeiro elemento da array e permite a contagem de outros elementos, tornando p = p + 1 também verdadeiro. x = (*mat) também é verdadeiro.
+
+#Questão 8:
 
 
+
+#Questão 9:
