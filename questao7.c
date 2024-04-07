@@ -10,7 +10,7 @@ int main(void) {
   x = (*mat);
 
   for (i=0;i<4;i++) {
-    printf ("o iº elemento é: %d\n", mat[i]");
+    printf ("o iº elemento é: %d\n", mat[i]);
   }
   printf("%d\n", p);
   p = p + 1;

@@ -9,7 +9,7 @@ int main(void) {
   }
 
   for(i=0;i<3;i++){
-  printf("%X ",vet+i);
+  printf("%X ", vet+i);
   }
 
 }

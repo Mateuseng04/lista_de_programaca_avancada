@@ -76,6 +76,6 @@ Devido a sintaxe dos ponteiros, as três primeiras sentenças são válidas. Ao 
 
 
 #Questão 10:
-
+O código não será compilado, exibindo uma mensagem de erro pelo compilador. Isso ocorre pois não é possível incrementar variáveis constantes.
 #Questão 11:
 
