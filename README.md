@@ -59,6 +59,7 @@ Dadas as seguintes atribuições:
 #Questão 5:
 
 
+<<<<<<< Updated upstream
 #Questão 6:
 Dado que a variável pulo representa o elemento número zero da array, isto é, o primeiro elemento na contagem da linguagem C, o terceiro elemento será representado da seguinte forma:
 
@@ -71,11 +72,27 @@ Devido a sintaxe dos ponteiros, as três primeiras sentenças são válidas. Ao 
 #Questão 8:
 
 
+=======
+#Questão 6: 
+A alternativa que aponta para o terceiro elemento do vetor pulo[] é *(pulo + 2). Devido À sintaxe dos ponteiros em C, o primeiro elemento da array (pulo[0]) é referenciado pelo ponteiro pulo. Como array[i] = (array + i), a resposta é a primeira alternativa.
+
+#Questão 7:
+(i): "p = mat + 1" é válida, pois significa que p assume o valor mat[0] adicionando uma unidade ao indície, assumindo o valor seguinte.
+(ii): "p = mat" é válida. P assume o valor mat[0].
+(iii): "*p = mat" é inválida.
+(iv): "x = (*mat)" recai no mesmo caso da segunda expressão.
+
+#Questão 8:
+ O primeiro programa imprime os valores contidos no array vet[] em formato decimal. O segundo o faz, mas em formato hexadecimal.
+>>>>>>> Stashed changes
 
 #Questão 9:
 
 
 #Questão 10:
 
+<<<<<<< Updated upstream
 #Questão 11:
 
+=======
+>>>>>>> Stashed changes
