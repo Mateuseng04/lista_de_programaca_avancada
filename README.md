@@ -79,3 +79,14 @@ Devido a sintaxe dos ponteiros, as três primeiras sentenças são válidas. Ao 
 O código não será compilado, exibindo uma mensagem de erro pelo compilador. Isso ocorre pois não é possível incrementar variáveis constantes.
 #Questão 11:
 
+#Questão 12:
+(i): aloha[2] = value é um comando válido. O programa irá imprimir o valor 2.20000;
+(ii): scanf("%f", &aloha) é um comando válido. O sistema irá escrever um valor float na variável aloha[0];
+(iii): "aloha = "value"" é um comando inválido, pois aloha não pode guardar strings, devido a seu tipo ser float.
+(iv): printf("%f", aloha) é um comando válido. Irá imprimir qualquer valor dado a aloha[0];
+(v): coisas[4][4] = aloha é um comando válido;
+(vi): coisas[5] = aloha é um comando inválido;
+(vii): pf = value é um comando válido;
+(viii) pf = aloha é um comando válido.
+
+$Questão 13:
