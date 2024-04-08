@@ -1,16 +1,17 @@
 
 #include <stdio.h>
 
-struct teste {
-  int x = 3;
-  char nome[] = "jose";
+struct teste{
+  int x;
+  char nome[5];
 };
 
-int main(void)
-{
+int main(void) {
   struct teste *s;
-  printf("%d", *s->x);
-  printf("%s", *s->nome);
+  s->x = 3;
+  sprintf(s->nome, "%s", "Jose");
+  printf("%d\n", (*s).x); 
+  printf("%s\n", (*s).nome);
 
   return 0;
 }

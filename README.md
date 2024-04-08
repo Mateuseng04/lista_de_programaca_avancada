@@ -89,4 +89,102 @@ O código não será compilado, exibindo uma mensagem de erro pelo compilador. I
 (vii): pf = value é um comando válido;
 (viii) pf = aloha é um comando válido.
 
-$Questão 13:
+#Questão 13: 
+Um vazamento de memória decorre quando um programa não libera uma memória que foi alocada dinamicamente, levando a um consumo cada vez maior da memória da máquina. O vazamento costuma levar a uma performace pior do sistema e, em alguns casos, a um crash do programa.
+As funções que costuman causar o vazamento de memória são o malloc() e o calloc(). Ele ocorre quando estas funções alocam memória para o programa, mas não a libera após ser utilizada. Outro caso que pode causar este fenômeno é o uso de ponteiros: quando um ponteiro está fora do escopo da função a ser executada ou recebe um endereço antes de seu primeiro endereço ser liberado.
+
+Exemplos: 
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int ptr = (int)malloc(sizeof(int));
+    ptr = (int*)malloc(sizeof(int));
+
+return 0;
+}
+Exemplo 2:
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{   
+    int a = 12, b = 24; 
+    {
+        int *sum = (int*)malloc(sizeof(int));
+        *sum = a + b;
+    }
+   
+    printf("%d\n", *sum);
+    return 0;
+}
+Exemplo 3: 
+#include <stdlib.h>
+void teste(){
+ char *p;
+ p = (char *)malloc(100*sizeof(char));
+ /* processa operação */
+ ...
+}
+int main(){
+ int i = 0;
+ while (i < 100) {
+ teste();
+ i++;
+ }
+ return 0;
+}
+
+#Questão 14:
+Em C, ponteiros são variáveis que armazenam endereços de memória de outras variáveis. Em funções, utiliza-se ponteiros para definir qual função será executada sem a necessidade de escrever o nome completo da função.
+Um ponteiro para função tem a seguinte declaração:
+tipo_de_retorno(*nome_do_ponteiro)();
+ou: tipo_de_retorno(*nome_do_ponteiro)(declaração_de_parâmetros)
+Como exemplo, temos o seguinte programa:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+float area (float a, float b) {
+// Declaração da função área, cujos parâmetros a e b são do tipo float
+    float c;
+// Declaração do resultado c, também do tipo float
+    return (c = a * b);
+// Retorno da funcção
+}
+
+int main(void) {
+    // Declaração do ponteiro px, que aponta para a função já definida
+    float (*px)(float, float) = &area; 
+    // Valores a serem cálculados pela função
+    printf ("A area e igual a: %f\n", px(3.5, 4.6));
+
+}
+
+#Questão 15:
+
+#Questão 16:
+
+#Questão 17:
+
+#Questão 18:
+
+#Questão 19:
+
+
+#Questão 20:
+
+
+#Questão 21:
+
+#Questão 22:
+
+
+#Questão 23:
+
+
+
+#Questão 24:
+
+
+#Questaõ 25
