@@ -7,7 +7,7 @@ Componentes: Mateus de Oliveira Souza
 Matrícula: 20230023030
 
 
-##Questão 1
+##Questão 1:
 
 Seja enunciado o seguinte código:
 
