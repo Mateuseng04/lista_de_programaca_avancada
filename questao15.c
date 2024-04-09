@@ -10,7 +10,7 @@ float ordenar (float *array, int n) {
     {
         for (j = 0; j < n - i - 1; j++)
          {
-            if (array[j] > array [i]) {
+            if (array[j +1] > array [i]) {
                 temp = array[j];
                 array[j] = array[j + 1];
                 array[j + 1] = temp;
@@ -22,7 +22,7 @@ float ordenar (float *array, int n) {
 int main(void) {
     int i;
     float *ordem;
-    float (*pf) (float, int) = &valores;
+    float (*pf) (float, int) = &ordenar;
 
     ordem = malloc(6 * sizeof(float));
     if (ordem = NULL) {

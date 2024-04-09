@@ -162,23 +162,23 @@ int main(void) {
 }
 
 #Questão 15:
-
+Código em arquivo separado.
 #Questão 16:
-
+Código em arquivo separado.
 #Questão 17:
-
+Código em arquivo separado.
 #Questão 18:
+Para medir o tempo que uma função leva para ser implementada em C, utiliza-se a função clock(). É a função mais generalista, podendo ser utilizada em qualquer sistema; é invocada com a biblioteca <time.h> e, junto com ela, vêm também as funcionalidades CLOCKS_PER_SEC e clock_gettime, permitindo saber o tempo gasto em milissegundos. Para sistemas Unix, existe o comando $ time./.a.out. Também é possível utilizar a função clock_gettime no Linux, para conseguir a hora do sistema.
 
 #Questão 19:
-
+ 
 
 #Questão 20:
 
-
 #Questão 21:
-
+O código E libera a variável m duas vezes, ação que pode ocasionar um vazamento de memória e não é permitido em linguagem C. O double free, como é chamado, pode levar o programa a se comportar de formas instáveis e aleatórias, podendo corromper os blocos já existentes no programa ou alocar a mesma memória múltiplas vezes, chamando a função malloc novamente, por exemplo.
 #Questão 22:
-
+A
 
 #Questão 23:
 
