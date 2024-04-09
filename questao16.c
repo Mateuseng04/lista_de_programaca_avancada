@@ -28,16 +28,7 @@ int main(void) {
         printf("Erro de alocação de memória");
         return 1;
     }
-    for (i = 0; i < 6; i++) {
-        ordem[i] = valores[i];
-    }
-    for (i = 0; i < 6; i++) {
-      for (j = i + 1; j < 6; j++)) {
-      for (k = j + 1; k < 6; k++) {
-    ordenar(*ordem[i], *ordem[j], *ordem);
-      }
-    }
-  }
+    qsort (ordem, 6, sizeof(float), ordenar);)
     printf("Valores ordenados:\n");
     for (i = 0; i < 6; i++) {
         printf("%f\n", ordem[i]);
