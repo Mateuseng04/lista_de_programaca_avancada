@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <search.h>
 
 float valores[] = {4.5, 6.9, 3.5, 5.6, 1.0, 0.1};
 void trocar (int *a, int *b)  {
